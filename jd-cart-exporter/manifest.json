@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "京东购物车价格导出（本地只读）",
+  "version": "1.0.0",
+  "description": "从已登录的京东购物车或提交订单页导出页面可见的商品、优惠及价格信息。",
+  "permissions": ["downloads"],
+  "content_scripts": [
+    {
+      "matches": ["https://*.jd.com/*", "https://*.jingdong.com/*"],
+      "js": ["offers.js", "jd-parser.js", "content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
