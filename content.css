@@ -1,0 +1,3 @@
+#tb-price-exporter { position: fixed; right: 22px; bottom: 30px; z-index: 2147483647; background: #ff5000; color: #fff; border: 0; border-radius: 999px; padding: 12px 18px; font: 14px/1.2 -apple-system, BlinkMacSystemFont, "Microsoft YaHei", sans-serif; box-shadow: 0 4px 18px #0004; cursor: pointer; }
+#tb-price-exporter:hover { background: #e84600; }
+#tb-price-exporter:focus { outline: 3px solid #ffd3bd; outline-offset: 2px; }
